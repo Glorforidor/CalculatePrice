@@ -36,10 +36,9 @@ elsif meeting == 5
   budget *= 1.05
 end
 
-puts "Which functionalities does the customer want? Type the given number(s) one at a time:
+puts "Which functionalities does the customer want? Type the given name(s) followed by enter. Type 'X' when you're done:
 \n1: Payment system\n2: Integration\n3: Streaming service"
 
-puts "Type the number of the functionality you want followed by enter. Type X when done"
 while true
   funcs = gets.chomp.capitalize
   if funcs == "X"
