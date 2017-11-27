@@ -4,7 +4,7 @@ functionalities = {"Payment system" => 1.15, "Integration" => 1.5, "Streaming se
 #Array is set called listOfFunc
 listOfFuncs = Array.new
 
-#Information gained from HTML28. When the customer has given a budget for a project, weight that budget with 0.8 and use it as a starting point
+#Information gained from HTML24. When the customer has given a budget for a project, weight that budget with 0.8 and use it as a starting point
 weightStart = 0.8
 
 puts "This is a program to calculate the price of a project with a new customer."
